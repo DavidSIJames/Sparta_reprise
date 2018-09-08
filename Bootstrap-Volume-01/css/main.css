@@ -5,6 +5,49 @@
 /* WHO WE ARE / WHAT WE DO */
 
 /* CAROUSEL */
+.carousel_setion {
+  padding: 20px;
+}
+
+.carousel{
+  border: 2px solid grey;
+}
+
+.carousel .carousel-control{
+  background-image: none;
+}
+.carousel .carousel-control i{
+  border: 1px solid grey;
+  font-size: 2em;
+  padding: 10px;
+  color: grey;
+
+}
+a.left.carousel-control {
+  transform: translate(-100px,20px);
+  background-color: white;
+  opacity: 1;
+  padding: 0px;
+}
+a.right.carousel-control {
+  transform: translate(100px,20px);
+  background-color: white;
+  opacity: 1;
+  padding:0px;
+}
+
+.demo-icons i {
+  padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    transition: .2s;
+}
+.demo-icons i:hover {
+  background: white;
+  color:blue;
+  transform:scale(1.1);
+}
 
 /* JUMBOTRON */
 
@@ -21,6 +64,10 @@
   text-align: center;
   color:white;
   background: #24303a;
+}
+
+.grid-item:nth-child(8):hover{
+  transform: scale(1.02);
 }
 
 /* FORM */
